@@ -1,13 +1,46 @@
-body {
-    margin: 0;
-    padding: 0;
+body{
     font-family: Arial;
     text-align: center;
 
-    background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
+    background-image: url("https://global.kduniv.ac.kr/global/index.php?pCode=1661925370");
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
-    height: 100vh;
+    margin: 0;
+    padding: 30px;
+}
+
+h1{
+    color: #0a2a66;
+    font-size: 45px;
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box{
+    background: rgba(255,255,255,0.85);
+
+    width: 60%;
+    margin: auto;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 10px gray;
+}
+
+.profile{
+    border-radius: 50%;
 }
